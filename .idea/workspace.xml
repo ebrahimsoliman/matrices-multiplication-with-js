@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="dbbe446d-66ef-4992-bdeb-cb8fcae8ac45" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1URzIOnzVwVqKKCL88zVqZt8Ihc" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dbbe446d-66ef-4992-bdeb-cb8fcae8ac45" name="Default Changelist" comment="" />
+      <created>1575334115410</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1575334115410</updated>
+      <workItem from="1575334118432" duration="255000" />
+      <workItem from="1575334633360" duration="15440000" />
+      <workItem from="1575372099785" duration="4152000" />
+      <workItem from="1575426396643" duration="4672000" />
+      <workItem from="1575468425044" duration="42000" />
+      <workItem from="1575470863746" duration="6283000" />
+      <workItem from="1575480366726" duration="2942000" />
+      <workItem from="1575495806822" duration="8387000" />
+      <workItem from="1575510895665" duration="7782000" />
+      <workItem from="1575524212758" duration="801000" />
+      <workItem from="1575573658039" duration="195000" />
+      <workItem from="1575573894803" duration="215000" />
+      <workItem from="1575607029987" duration="14453000" />
+      <workItem from="1575625594537" duration="184000" />
+      <workItem from="1575629498390" duration="1649000" />
+      <workItem from="1575644440769" duration="10842000" />
+      <workItem from="1575664008874" duration="3245000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="275" y="21" key="#Inspections" timestamp="1575347838878">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="21" key="#Inspections/0.0.1366.728@0.0.1366.728" timestamp="1575347838878" />
+    <state x="184" y="6" key="SettingsEditor" timestamp="1575334169551">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="184" y="6" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1575334169551" />
+    <state x="380" y="0" width="606" height="728" key="find.popup" timestamp="1575337432192">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="380" y="0" width="606" height="728" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1575337432192" />
+    <state x="339" y="162" key="run.anything.popup" timestamp="1575520225202">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1575520225202" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1575504651644">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1575504651644" />
+  </component>
+</project>
