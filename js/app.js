@@ -1,25 +1,25 @@
 const lenform = document.querySelector('.len');
 const inputtable = document.querySelectorAll('.intbdy');
 const inform = document.querySelector('.takein');
-const qwsform = document.querySelector('.quesform');
+//const qwsform = document.querySelector('.quesform');
 const lenrow = document.querySelector(".lenrw");
 const table = document.querySelectorAll('.tbl');
-let tabletr = document.querySelectorAll('.tbl > tr');
+//let tabletr = document.querySelectorAll('.tbl > tr');
 let rwsintbl = 0;
 let cells = document.getElementsByName('innn');
-let  rwsq = inform.querySelectorAll('.rowinput');
+let rwsq = inform.querySelectorAll('.rowinput');
 const otbdy = document.querySelectorAll('.outbdy');
-let  newp = document.createElement("p");
-const infrmdev = document.querySelector(".infrm")
+let newp = document.createElement("p");
+const infrmdev = document.querySelector(".infrm");
 let col;
 let row;
 let stcells = [];
 let ndcells = [];
 let stmatrix = [];
 let ndmatrix = [];
-let dummyrow = [];
+//let dummyrow = [];
 let matrices = [];
-let i;
+
 let rowout1 = document.querySelectorAll(".rwot1");
 let rowout2 = document.querySelectorAll(".rwot2");
 //taking matrices length
@@ -29,8 +29,6 @@ lenform.addEventListener('submit', e => {
 
     col = lenform.cols.value;
     row = lenform.rows.value;
-
-
 
     let newrow;
     let newd;
@@ -43,18 +41,17 @@ lenform.addEventListener('submit', e => {
             newrow.classList.add("rowinput");
         }
 
-        rwsq = inform.querySelectorAll('.rowinput');
-        console.log(rwsq.length)
 
 
     }
-    for (i = 0; i < rwsq.length; i++) {
-        for (let c = 0 ; c < col; c++){
+    rwsq = inform.querySelectorAll('.rowinput');
+    for (let i = 0; i < rwsq.length; i++) {
+        for (let c = 0; c < col; c++) {
             newd = document.createElement("TD");
             newin = document.createElement("INPUT");
             rwsq[i].appendChild(newd);
             newd.appendChild(newin);
-            newd.classList.add("tdm")
+            newd.classList.add("tdm");
             newin.classList.add("innumm");
             newin.setAttribute("type", "number");
             newin.setAttribute("placeholder", "#");
@@ -63,17 +60,10 @@ lenform.addEventListener('submit', e => {
             newin.setAttribute("name", "innn");
             lenrow.classList.add("d-none");
         }
-
     }
-
-
-
     cells = document.getElementsByName('innn');
-
-
 });
 
-console.log(cells.length);
 inform.addEventListener('submit', e => {
     e.preventDefault();
 
@@ -83,8 +73,11 @@ inform.addEventListener('submit', e => {
         } else if (index >= cells.length / 2) {
             ndcells.push(cell.value);
         }
-    })
-    let c = 0;
+    });
+    //OK
+
+    rwsq = inform.querySelectorAll('.rowinput');
+
     rwsintbl = (rwsq.length / 2);
     let colsinrow = stcells.length / rwsintbl;
     let r = colsinrow;
@@ -94,19 +87,22 @@ inform.addEventListener('submit', e => {
         ndmatrix.push(ndcells.slice(i, r));
         r += colsinrow;
 
-
-        matrices.push(stmatrix);
-        matrices.push(ndmatrix);
-
-
+    }
+    matrices.push(stmatrix);
+    matrices.push(ndmatrix);
+    //OK
+console.log(matrices);
         let newrowot = document.createElement("TR");
         matrices.forEach((matrix, indexm) => {
 
-
             matrix.forEach((row, indexr) => {
+
                 newrowot = document.createElement("TR");
+
                 otbdy[indexm].appendChild(newrowot);
+
                 if (indexm == 0) {
+
                     newrowot.classList.add("rwot1");
 
                 } else if (indexm == 1) {
@@ -117,10 +113,9 @@ inform.addEventListener('submit', e => {
             })
 
 
-        })
-        rowout1 = document.querySelectorAll(".rwot1")
-        rowout2 = document.querySelectorAll(".rwot2")
-
+        });
+        rowout1 = document.querySelectorAll(".rwot1");
+        rowout2 = document.querySelectorAll(".rwot2");
 
         matrices.forEach((matrix, mindex) => {
             matrix.forEach((row, rindex) => {
@@ -142,5 +137,5 @@ inform.addEventListener('submit', e => {
 
         })
         infrmdev.classList.add("d-none");
-    }
+
 });
